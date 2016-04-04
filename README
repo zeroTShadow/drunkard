@@ -1,0 +1,7 @@
+The program accepts the input and call the function walk if W is the first character of the input line.
+The function histogram is called if H is the first character of the input line. 
+Both function walk and histogram utilizes the function setup to simulate the drunkard walking. The new seed is returned 
+to the function for future use. 
+After executing the simulation, output will be generated according to the description. 
+
+Potential improvement: use a global static variable for seed instead of returning the new seed to the function. 
